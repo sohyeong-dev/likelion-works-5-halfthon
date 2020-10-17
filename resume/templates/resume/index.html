@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOHYEONG's Homepage</title>
+    <link rel="stylesheet" href="{% static 'resume/style.css' %}">
+</head>
+<body>
+    <h1>SOHYEONG</h1>
+    <img src="{% static 'resume/images/django.png' %}" alt="django">
+
+    <p>안녕하세요, 저는 이소형입니다. 세상을 더 좋은 세상으로 바꾸는 개발자가 되고 싶습니다.</p>
+    
+    <h2>About Me</h2>
+    
+    <ul>
+        <li>Email: so-hyeong@likelion.org</li>
+        <li>Phone: +82-10-4388-4724</li>
+    </ul>
+    
+    <h2>Portfolios</h2>
+    
+    <ol>
+        <li>Instagram Project: <a href="/posts">#Link</a></li>
+        <li>...</li>
+    </ol>
+</body>
+</html>
